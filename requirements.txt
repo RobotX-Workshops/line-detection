@@ -5,4 +5,6 @@ matplotlib
 numpy
 flake8
 black
+# Pin PyArrow to a stable version that has precompiled wheels
+pyarrow>=12.0.0,<17.0.0
 streamlit
