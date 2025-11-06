@@ -1,0 +1,8 @@
+ipykernel
+# opencv-python
+opencv-python-headless 
+matplotlib
+numpy
+flake8
+black
+streamlit

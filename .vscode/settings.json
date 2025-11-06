@@ -1,0 +1,39 @@
+{
+    "python.languageServer": "Pylance",
+    "python.defaultInterpreterPath": "python",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.importFormat": "absolute",
+    "editor.autoIndent": "full",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "python.analysis.extraPaths": [
+        "./venv/lib/python3.12/site-packages",
+        "/usr/local/bin/python3.12",
+        "/usr/local/bin/python",
+        "/usr/local/bin/python3",
+        "/bin/python3",
+    ],
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "flake8.args": [
+        "--max-line-length=130",
+        "--ignore=E402",
+    ],
+    "cSpell.words": [],
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "[ignore]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "python.autoComplete.extraPaths": [
+        "./venv/lib/python3.12/site-packages",
+        "/usr/local/bin/python3.12",
+        "/usr/local/bin/python",
+        "/usr/local/bin/python3",
+        "/bin/python3"
+    ]
+}
